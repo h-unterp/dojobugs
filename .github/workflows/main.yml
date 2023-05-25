@@ -6,7 +6,8 @@ on:
 
 jobs:
     auto-assign:
-        permissions: issues
+        permissions: 
+            issues: write
         runs-on: ubuntu-latest
         steps:
             - name: 'Auto-assign issue'
